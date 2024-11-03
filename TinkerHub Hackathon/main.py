@@ -68,7 +68,7 @@ def quit_game():
     root.quit()
 
 root = tk.Tk()
-root.title("Tip Top Game")
+root.title("Sneak Peak")
 root.geometry("300x300") 
 
 start_button = tk.Button(root, text="Start Game", command=start_game, width=30)
